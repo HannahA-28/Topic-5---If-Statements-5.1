@@ -48,22 +48,35 @@
             //if (word.ToLower() == "please")
             //    Console.WriteLine("You're welcome.");
 
-            Console.WriteLine("Task 2");
-            string name;
-            int age;
-            Console.WriteLine("Hey, what's your name?");
-            name = Console.ReadLine();
-            Console.WriteLine("Ok, " + name + ", how old are you?");
-            int.TryParse(Console.ReadLine(), out age);
-            {
-                if (age <= 16)
-                    Console.WriteLine("You can't drive.");
-                if (age <= 18)
-                    Console.WriteLine("You can't vote.");
-                if (age < 25)
-                    Console.WriteLine("You can't rent a car.");
-                if (age >= 25)
-                    Console.WriteLine("You can do anything that's legal.");
+            //Console.WriteLine("Task 2");
+            //string name;
+            //int age;
+            //Console.WriteLine("Hey, what's your name?");
+            //name = Console.ReadLine();
+            //Console.WriteLine("Ok, " + name + ", how old are you?");
+            //int.TryParse(Console.ReadLine(), out age);
+            //{
+            //    if (age <= 16)
+            //        Console.WriteLine("You can't drive.");
+            //    if (age <= 18)
+            //        Console.WriteLine("You can't vote.");
+            //    if (age < 25)
+            //        Console.WriteLine("You can't rent a car.");
+            //    if (age >= 25)
+            //        Console.WriteLine("You can do anything that's legal.");
+            //}
+
+            //Console.WriteLine("Task 3");
+            //int temperature;
+            //Console.WriteLine("What does the temperature have to be for water to freeze?");
+            //int.TryParse(Console.ReadLine(), out temperature);
+            //{
+            //    if (temperature == 0)
+            //        Console.WriteLine("Ahh yes, 0 degrees Celsius is correct.");
+            //    if (temperature == 32)
+            //        Console.WriteLine("Ahh yes, 32 degrees Fahrenheit is correct.");
+            //    if (temperature == 273)
+            //        Console.WriteLine("Ahh yes, 273.2 degrees Kelvin to be percise is correct.");
             }
 
 
